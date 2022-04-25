@@ -6,7 +6,7 @@ import {
     Navigate
   } from "react-router-dom";
 import Home from '../pages/Home';
-import About from '../pages/About';
+import About from '../AboutUs/About';
 import Login from '../pages/Login';
 import { ProtectedRoutes, PublicRoutes } from './ProtectedRoutes';
 import Register from '../pages/Register';
