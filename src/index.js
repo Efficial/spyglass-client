@@ -9,6 +9,10 @@ import setupAxios from "./axiosInterceptor";
 import {
   BrowserRouter as Router,
 } from "react-router-dom";
+import Goal from './pages/Goal';
+
+
+ReactDOM.render(<Goal/>, document.getElementById('root'));
 
 
 // This command will setup interceptor
